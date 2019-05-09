@@ -1,0 +1,61 @@
+{
+  "name": "LineAtKaf",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "wakeup": "curl http://lineatkaf.herokuapp.com"
+  },
+  "dependencies": {
+    "@ercpereda/react-native-accordion": "^2.0.6",
+    "axios": "0.16.1",
+    "eslint-plugin-react-native": "2.3.2",
+    "native-base": "2.1.4",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.46.4",
+    "react-native-communications": "^2.2.1",
+    "react-native-config": "0.4.2",
+    "react-native-dash": "0.0.8",
+    "react-native-dropdown-menu": "1.1.0",
+    "react-native-elements": "0.12.2",
+    "react-native-fs": "2.3.3",
+    "react-native-hr": "1.1.3",
+    "react-native-keyboard-done-button": "^1.0.0",
+    "react-native-md-textinput": "2.0.4",
+    "react-native-modal": "^7.0.0",
+    "react-native-pagination": "1.2.8",
+    "react-native-progress": "3.2.1",
+    "react-native-scrollable-tab-view": "0.6.6",
+    "react-native-simple-onboarding": "0.1.1",
+    "react-native-snap-carousel": "3.6.0",
+    "react-native-splash-screen": "^3.1.1",
+    "react-native-svg": "5.3.0",
+    "react-native-swiper": "1.5.13",
+    "react-native-vector-icons": "4.2.0",
+    "react-navigation": "1.0.0-beta.9",
+    "react-redux": "5.0.5",
+    "redux": "3.7.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "20.0.1",
+    "babel-preset-react-native": "1.9.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "15.0.1",
+    "eslint-loader": "1.7.1",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "5.0.1",
+    "eslint-plugin-react": "^7.0.1",
+    "jest": "20.0.1",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}

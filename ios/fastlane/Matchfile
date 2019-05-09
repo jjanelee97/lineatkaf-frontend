@@ -1,0 +1,4 @@
+git_url("git@github.com:dali-lab/ios-code-signing.git")
+type "development"
+app_identifier "edu.dartmouth.LineAtKaf"
+username "apps@brunchlabs.com" 
